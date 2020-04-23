@@ -3,7 +3,7 @@ and returns a string of those numbers in the form of a phone number. */
 
 // 1 input - array of numbers 
 function createPhoneNumber(numbers){
-//result variable / accumulator
+//result variable / accumulator with indicated format
   var phoneNumber = "(xxx) xxx-xxxx";
   //iterate over array of numbers using for loop
   for (var i = 0; i < numbers.length; i++) {
